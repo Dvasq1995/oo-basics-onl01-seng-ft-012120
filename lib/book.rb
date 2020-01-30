@@ -11,7 +11,5 @@ class Book
     puts 'Flipping the page...wow, you read fast!'
   end
   
-  attr_accessor :author
-  attr_accessor :page_count
-  attr_accessor :genre
+  attr_accessor :author, :page_count, :genre
 end
